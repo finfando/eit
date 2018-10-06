@@ -3,13 +3,14 @@ This repository provides simple setup for running flink programs in a docker con
 
 # Setup
 1. Install Docker and Docker Compose
-2. Build your JAR file and place it in artifacts catalogue
-3. Set your maven configuration in var.env
+2. Build your *.jar file and place it in ``artifacts`` catalogue
+3. Set your maven configuration in ``var.env``
 4. Start docker container
-
+```
     $ docker-compose up
-
+```
 5. Run programs. First command line argument is a name of the class. Next arguments are passed as command line arguments to flink run command.
-
+```
     $ ./run.sh WordCount
     $ ./run.sh SourceSink
+```
