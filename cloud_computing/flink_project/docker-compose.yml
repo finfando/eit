@@ -1,0 +1,10 @@
+version: "3"
+services:
+  flinky:
+    build: .  
+    volumes:
+      - .\programs:/home/programs
+      - .\data-in:/home/data-in
+      - .\data-out:/home/data-out
+    ports:
+      - "8081:8081"
