@@ -8,6 +8,7 @@ This repository provides simple setup for running flink programs in a docker con
 4. Start docker container
 
     $ docker-compose up
+
 5. Run programs. First command line argument is a name of the class. Next arguments are passed as command line arguments to flink run command.
 
     $ ./run.sh WordCount
