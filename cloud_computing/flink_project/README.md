@@ -9,7 +9,7 @@ This repository provides simple setup for running flink programs in a docker con
 ```
     $ docker-compose up
 ```
-5. Run programs. First command line argument is a name of the class. Next arguments are passed as command line arguments to flink run command.
+5. Run [programs](https://github.com/finfando/flink_programs). First command line argument is a name of the class. Next arguments are passed as command line arguments to flink run command.
 ```
     $ ./run.sh WordCount
     $ ./run.sh SourceSink
